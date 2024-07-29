@@ -1,4 +1,4 @@
-# Sport Vision AI
+# Volley Vision AI
 Sport Vision AI is an innovative solution aimed at revolutionizing the way sports events are analyzed and showcased. By leveraging cutting-edge computer vision algorithms and artificial intelligence, this software enables users to create customized video clips from selected sequences of sports events. Sport Vision AI offers the flexibility to choose between manual configuration, importing event files from specialized software like DataVolley, or utilizing computer vision models for automatic sequence identification.
 
 Once created, these video clips can be further enriched with valuable information through the application of computer vision algorithms. These algorithms are engineered to extract critical details from the footage, such as ball trajectories and identifying involved players, thereby providing a deeper understanding of the game dynamics.
