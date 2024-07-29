@@ -1,0 +1,69 @@
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto; /* Aggiunge lo scroll verticale se necessario */
+  /* Aggiungi un'altezza massima se non è già definita per attivare lo scrolling */
+  max-height: 220px; /* Ad esempio, può essere impostato a tutto l'altezza della viewport */
+}
+
+  
+  .summary-item {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    border: 1px solid #00A4CCFF;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .summary-detail {
+    display: flex;
+    flex-grow: 1; /* Occupa tutto lo spazio disponibile */
+    gap: 0.2rem; /* Riduci il gap per avvicinare i campi */
+    align-items: center;
+  }
+  
+  .summary-title, .summary-description {
+    flex-grow: 1; /* Fai crescere il titolo e la descrizione per riempire lo spazio */
+    border-radius: 5px;
+    border: 2px solid #3BA6D4;
+    background-color: white;
+    font-weight: bold;
+    color: #3BA6D4;
+    padding: 0.5rem;
+  }
+  
+  .summary-shortcut {
+    flex-basis: 60px; /* Larghezza fissa per lo shortcut */
+    flex-grow: 0; /* Non permettere allo shortcut di crescere */
+    border-radius: 5px;
+    border: 2px solid #3BA6D4;
+    background-color: white;
+    font-weight: bold;
+    color: #3BA6D4;
+    padding: 0.5rem;
+    text-align: center; /* Allinea il testo al centro */
+    margin-left: 1rem; /* Spazio dopo lo shortcut */
+    margin-right: 1rem; /* Spazio prima del bottone */
+    font-family: 'Courier New', Courier, monospace; /* Imposta un font a larghezza fissa */
+  }
+  
+  
+  .manual-add-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #97D8F4;
+    border-radius: 5px;
+    background-color: #97D8F4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 0.2rem;
+  }
+  
+  .manual-add-btn:hover {
+    background-color: white;
+    color: #97D8F4;
+    border: 1px solid #97D8F4;
+  }
+  

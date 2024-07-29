@@ -1,0 +1,35 @@
+.react-player {
+    border-radius: 10px; /* Angoli arrotondati */
+    overflow: hidden; /* Nasconde parti del video che potrebbero fuoriuscire a causa del border-radius */
+    max-width: 100%; /* Imposta la larghezza massima al 100% del suo contenitore genitore */
+    aspect-ratio: 16 / 9; /* Mantiene un rapporto di aspetto di 16:9 */
+    box-sizing: border-box; /* Include bordo e padding nel calcolo della larghezza/altezza */
+  }
+
+.canvas-button{
+    top: 1rem; /* Distanza dal bordo superiore */
+    right: 1rem;
+    position: absolute;
+    background-color: #3BA6D4; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    padding: 0.5rem; /* Spaziatura interna */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s, color 0.3s; /* Transizione per il cambio di colore */
+  }
+  
+  .canvas-button:hover {
+    background-color: #007BFF; /* Cambia il colore di sfondo al passaggio del mouse */
+    color: white; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+/* MyPlayer.css */
+.loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+}

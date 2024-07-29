@@ -1,0 +1,20 @@
+.ai-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Attacca il contenuto alla parte superiore */
+  width: 100%;
+  min-height: 100vh; /* Occupa tutta l'altezza della viewport */
+  padding: 0; /* Rimuove eventuali padding */
+  margin: 0; /* Rimuove eventuali margini */
+}
+
+.ai-react-player {
+  width: 60%; /* Regola questa dimensione secondo necessità */
+  max-width: 100%;
+  height: auto; /* Mantiene il rapporto di aspetto del video */
+  border-radius: 10px; /* Bordi arrotondati */
+  overflow: hidden; /* Nasconde le parti del video che escono */
+  margin: 0; /* Centro orizzontale */
+  padding-top: 0; /* Rimuove eventuali padding superiori */
+}

@@ -1,0 +1,28 @@
+.listener-inner {
+    display: flex; /* Imposta il layout interno su flex */
+    justify-content: space-around; /* Distribuisce spazio intorno agli elementi interni */
+    align-items: center; /* Allinea verticalmente gli elementi interni */
+    background-color: #E0F7FA; /* Colore di sfondo del div esterno per simulare il bordo */
+    padding: 20px; /* Spazio attorno agli elementi interni, crea l'effetto di bordo */
+    border-radius: 10px; /* Angoli arrotondati per il div esterno */
+    gap: 20px; /* Distanza tra i due componenti interni */
+  }
+  
+  .summary-listener
+   {
+    flex-basis: 60%; /* Assegna ad ogni componente metà dello spazio disponibile meno la metà del gap */
+    background-color: #3BA6D4; /* Colore di sfondo per i componenti interni */
+    height: 222px;
+    border-radius: 10px; /* Angoli arrotondati per i componenti interni */
+    padding: 20px; /* Spazio attorno ai componenti interni */
+
+  }
+  
+  .add-listener {
+    flex-basis: 40%; /* Assegna ad ogni componente metà dello spazio disponibile meno la metà del gap */
+    background-color: #3BA6D4; /* Colore di sfondo per i componenti interni */
+    height: 222px;
+    border-radius: 10px; /* Angoli arrotondati per i componenti interni */
+    padding: 20px; /* Spazio attorno ai componenti interni */
+
+  }

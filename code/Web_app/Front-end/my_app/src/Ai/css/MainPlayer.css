@@ -1,0 +1,14 @@
+
+
+.ai-react-player {
+    flex: 1 1 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100% !important;
+    height: 100% !important;
+}

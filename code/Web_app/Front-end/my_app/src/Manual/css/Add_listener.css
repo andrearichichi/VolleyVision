@@ -1,0 +1,45 @@
+.add-listener-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Distanza tra gli elementi */
+}
+  
+  .add-listener-comp input {    
+    padding: 10px; /* Padding interno per i campi di testo */
+    border: 1px solid #ccc; /* Bordo sottile */
+    border-radius: 5px; /* Bordi leggermente arrotondati */
+    font-size: 1rem; /* Dimensione del testo appropriata */
+  }
+
+  
+  .add-listener-comp button {
+    margin-top: 1rem; /* Aggiunge spazio sopra il bottone */
+    width: 60%; /* Il bottone sarà il 80% della larghezza del suo contenitore */
+    align-self: center; /* Centra il bottone orizzontalmente */
+    border: #97D8F4 1px solid; /* Bordo al passaggio del mouse */
+    padding: 10px;
+    background-color: #97D8F4; /* Colore di sfondo */
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il bottone */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leggera per profondità */
+  }
+  
+  .add-listener-comp button:hover {
+    background-color: white; /* Colore di sfondo al passaggio del mouse */
+    border: #97D8F4 1px solid; /* Bordo al passaggio del mouse */
+    color: #97D8F4; /* Colore del testo al passaggio del mouse */
+  }
+
+  .add-listener-comp select {    
+    padding: 10px; /* Padding interno simile agli input */
+    border: 1px solid #ccc; /* Bordo sottile come per gli input */
+    border-radius: 5px; /* Bordi leggermente arrotondati */
+    font-size: 1rem; /* Dimensione del testo appropriata */
+    background-color: white; /* Sfondo bianco */
+    cursor: pointer; /* Indica che l'elemento è cliccabile */
+    color: #ccc;
+  }
+  

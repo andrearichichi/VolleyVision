@@ -1,0 +1,81 @@
+/* Manual.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Stili base per app-container */
+.app-container {
+  
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.initial-choice-overlay, .load-choice-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Assicura che il div occupi l'intera altezza della viewport */
+  width: 100vw; /* Assicura che il div occupi l'intera larghezza della viewport */
+}
+
+.initial-choice, .load-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spazio tra i bottoni */
+}
+
+.choice-btn {
+  /* Stilizza i bottoni come preferisci */
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.choice-btn:hover {
+  background-color: white; /* Colore di sfondo al passaggio del mouse */
+  color: #97D8F4; /* Colore del testo al passaggio del mouse */
+}
+
+
+/* I restanti stili rimangono invariati */
+.left-component,
+.player,
+.listener {
+  background: #97D8F4;
+  border: 2px solid #3BA6D4;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 8px;
+}
+
+.listener{
+  max-height: 19rem;
+}
+
+.left-component {
+  flex-basis: 35%;
+  flex-grow: 1;
+}
+
+.right-container {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.player {
+  flex-basis: 50%;
+}
+
+.listener {
+  flex-basis: 50%;
+}

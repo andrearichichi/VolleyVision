@@ -1,0 +1,85 @@
+/* ListConfiguration.css */
+.config-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .config-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .list-config {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .list-input textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; /* Disable resizing to maintain layout */
+  }
+  
+  .list-input button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-display {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .file-input {
+    margin-top: 10px;
+  }
+  
+  .finish-btn {
+    padding: 10px 20px;
+    background-color:  #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .finish-btn:hover {
+    background-color: #f8f9fa;
+    color: #007BFF ;
+  }

@@ -1,0 +1,133 @@
+/* index.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5cb9ff; /* Colore dello sfondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-app-container {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.index-logo {
+  width: 400px; /* Logo ancora più grande */
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.index-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.index-choice-btn {
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #5cb9ff;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+  width: 150px; /* Dimensione uniforme per i pulsanti */
+}
+
+.index-choice-btn:hover {
+  transform: scale(1.1);
+  background-color: #4aa3e0;
+  color: #ffffff;
+}
+
+.index-choice-btn:active {
+  transform: scale(0.9);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stile per i pulsanti nella pagina iniziale del Manual */
+.initial-choice-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5cb9ff; /* Colore dello sfondo */
+}
+
+.initial-choice {
+  text-align: center;
+}
+
+.initial-choice .choice-btn {
+  display: block;
+  margin: 20px auto; /* Distanza di 20px tra i pulsanti */
+  width: 200px; /* Dimensione uniforme per i pulsanti */
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff; /* Pulsanti bianchi */
+  color: #5cb9ff;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.initial-choice .choice-btn:hover {
+  transform: scale(1.1);
+  background-color: #4aa3e0;
+  color: #ffffff;
+}
+
+.initial-choice .choice-btn:active {
+  transform: scale(0.9);
+}
